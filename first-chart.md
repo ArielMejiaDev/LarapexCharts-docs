@@ -2,6 +2,10 @@
 outline: deep
 ---
 
+<script setup>
+import PieChart from './components/PieChart.vue';
+</script>
+
 # Create a chart
 
 ## Create a chart PHP object
@@ -124,3 +128,5 @@ Copy and paste this layout, it is using tailwindcss, but you can use any css sty
 :::
 
 ## It should looks like this
+
+<PieChart />
